@@ -23,6 +23,10 @@ button.devmountain {
   border: 2px solid;
   border-radius: 3px;
 }
+.devmountain mark {
+  background-color: white;
+  color: #2aabe2;
+}
 
 .facebook {
   background: #edf0f5;
@@ -53,10 +57,14 @@ button.facebook {
 main button.facebook {
   color: #606770;
 }
+.facebook mark {
+  background-color: #4267b2;
+}
 
 .twitter {
   background: #e6ecf0;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 body.twitter > header {
@@ -83,4 +91,8 @@ button.twitter {
   text-align: center;
   white-space: nowrap;
   background: white;
+}
+.twitter mark {
+  /* color: white; */
+  background-color: #1da1f2;
 }
